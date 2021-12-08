@@ -24,9 +24,8 @@ function App() {
     }
   }
 
-  // @ts-ignore
-  useEffect(async () => {
-    await notifyMe();
+  useEffect(() => {
+    notifyMe();
   }, []);
 
   return (
